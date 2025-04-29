@@ -27,7 +27,7 @@ public class Student extends Person {
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Student ID " + studentID);
-        System.out.println("Courses " + (courses.isEmpty() ? "NONE": String.join(studentID)));
+        System.out.println("Courses " + (courses.isEmpty() ? "no courses so far": String.join(studentID)));
     }
 }
 
